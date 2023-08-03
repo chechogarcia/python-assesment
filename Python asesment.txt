@@ -1,0 +1,112 @@
+2.1 Lists
+
+1) fruits = ["apple", "banana", "kiwi", "mango", "orange"]
+2) fruits.append("blueberry")
+3) fruits.pop(1)
+4) for x in fruits:
+	if x == "banana":
+		answer = "Banana is one of your favorite fruits"
+	else: 
+		answer = "Banana is not one of your favorite fruits"
+print(answer)
+5) for x in fruits:
+	print(x)
+6) nums = [5, 3, 7, 10, 10, 20]
+sum = 0
+for num in nums:
+	sum+=num
+avg = sum/len(nums)
+print(avg)
+*7) for x in range(len(list)):
+	for y in range(len(list)):
+		if list[x]==list[y]
+			list.pop(x)
+*8) names = ["Sergio", "Juan", "Andrea", "Camilo", "Karen"]
+
+9) max = 0
+second_max = 0
+pos = 0
+
+while pos <= len(num_list):
+	test = num_list[pos]
+	if test>max:
+		max = test
+		second_max = max
+	if test<max and test>=second_max:
+		second_max = test
+	pos++
+10) words = ["math", "paper", "computer"]
+for x in range(len(words)):
+	words(x) = words(x).capitalize()
+*11)
+*12)
+*13)strings = []
+
+for x in range(len(strings)):
+	if strings
+
+*14)sentences = []
+
+for x in range(len(sentences)):
+	sentences[x]=sentences[x].split()
+#sortear por cantidad de elementos en las listas
+...
+
+*15) dates=[]
+*16) ...
+*17)
+*18)
+*19)
+
+-------------------------------------------------------------------------------------------------
+
+2.2 Dics
+
+1) cities = {"Bogota": "7.1 millions", "New York": "8.5 millions"}
+2) cities["Medellin"]="2,6 millions"
+3) cities.pop("New York")
+4) print(cities[Bogota])
+5) for x in cities:
+	print("City: " , x, ". Population: ", cities[x])
+6) products = {"Product1":1, "Product2":10, "Product3":7, "Product4":15}
+total = 0
+for x in products:
+	total+= products[x]
+print(total)
+7) dic = {"word1":"meaning", "word2":"meaning", "word3":"meaning", "word4":"meaning", "word5":"meaning"}
+def search_meaning(word:str, dic):
+	return dic[word]
+8)def count_frec(sentence):
+	dic = {}
+	list = sentence.split()
+	for x in list:
+		if dic[x] >=1:
+			dic[x]+=1
+		else:
+			dic[x]=1
+	print(x)
+
+9) stu_scores = {"student1":1, "student2":4, "student3":5}
+
+max_score = 0
+max = ""
+
+for x in stu_scores:
+	if stu_scores[x]>=max_score:
+		max_score = stu_scores[x]
+		max = x
+print(x)
+
+10) def books_by_author("author", diccionary):
+	for x in diccionary:
+		if x == "author"
+			print(diccionary[x])
+
+11) dic = {"course":[prerequisites]}
+
+def can_take ("course", classes_taken, dic):
+	for x in dic[course]:
+		if x not in calsses_taken:
+			return ("cannot take the course")
+
+	return ("can take the course")
